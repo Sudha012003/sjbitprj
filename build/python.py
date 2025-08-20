@@ -1,3 +1,4 @@
+#HAND GESTURE CONTROLLING LED 
 import cv2
 import mediapipe as mp
 import serial
@@ -69,3 +70,4 @@ cv2.destroyAllWindows()
 
 if arduino:
     arduino.close()
+
